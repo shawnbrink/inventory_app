@@ -1,0 +1,45 @@
+{
+  "name": "hidinventory",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-datasource-juggler": "^2.39.0",
+    "serve-favicon": "^2.0.1",
+    "loopback-connector-mongodb": "~1.13.0",
+    "gulp": "~3.9.0",
+    "react": "^0.13.3",
+    "express": "~4.13.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "browserify": "^10.2.1",
+    "glob": "^4.0.6",
+    "gulp-concat": "^2.3.4",
+    "gulp-connect": "^2.2.0",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-if": "^1.2.4",
+    "gulp-jasmine2-phantomjs": "^0.1.1",
+    "gulp-livereload": "^2.1.1",
+    "gulp-notify": "^1.4.2",
+    "gulp-shell": "^0.2.10",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^3.0.0",
+    "phantomjs": "^1.9.12",
+    "reactify": "^0.15.2",
+    "vinyl-source-stream": "^0.1.1",
+    "watchify": "^2.1.1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "hidinventory"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "inventory",
+  "plural": "inventory",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "make": {
+      "type": "string",
+      "required": true
+    },
+    "model": {
+      "type": "string",
+      "required": true
+    },
+    "checkedin": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "date"
+    },
+    "datein": {
+      "type": "date"
+    },
+    "dateout": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "inven",
+    "name": "db",
+    "connector": "mongodb"
+  },
+  "newDatasource": {
+    "name": "newDatasource",
+    "connector": "mongodb"
+  }
+}
